@@ -1,0 +1,24 @@
+body {
+  background-color: white !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.card-deck .card {
+  max-width: calc(25% - 100px);
+}
+
+.head {
+  font-weight: bold;
+  color: slategray;
+}
+
+#img-tag {
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: transform .2s; /* Animation */
+  overflow: hidden;
+}
