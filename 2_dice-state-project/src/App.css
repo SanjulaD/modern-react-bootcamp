@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.Die {
+  font-size: 10em;
+  padding: 0.25em;
+  color: slateblue;
+}
+
+.RollDice > * {
+  margin-top: 3rem;
+}
+
+.RollDice__dice {
+  display: flex;
+  justify-content: center;
+}
+
+.RollDice button {
+  padding: 1rem;
+  width: 10rem;
+  color: white;
+  background-color: purple;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.RollDice button:hover,
+.RollDice button:active {
+  color: purple;
+  background-color: white;
+}
+
+.Die {
+  margin: 0 1rem;
+}
+
+.Die i {
+  font-size: 6rem;
+  color: purple;
+  animation-duration: 1s;
+}
