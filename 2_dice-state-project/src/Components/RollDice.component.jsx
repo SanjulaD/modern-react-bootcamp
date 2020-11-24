@@ -23,7 +23,7 @@ const RollDice = ({ sides }) => {
             <div className="RollDice__dice">
                 <Die face={Die1} />
                 <Die face={Die2} />
-                <button onClick={() => roll()} >Roll Dice!</button>
+                <button onClick={roll} >Roll Dice!</button>
             </div>
         </div>
     );

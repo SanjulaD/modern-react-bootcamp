@@ -1,0 +1,24 @@
+.circle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 60px;
+  padding: 10px;
+  background: #fff;
+  border: 3px solid #000;
+  color: #000;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+}
