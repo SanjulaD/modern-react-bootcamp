@@ -12,11 +12,6 @@ const Lotto = ({ title, numBalls, maxNum }) => {
     const [randomNumber, setRandomNumber] = useState([result])
 
     const getRandomNumber = () => {
-
-        // var resultNew = Array.from({
-        //     length: numBalls
-        // }, () => Math.floor(Math.random() * numBalls))
-        // setRandomNumber(resultNew)
         setRandomNumber(result);
     }
 
